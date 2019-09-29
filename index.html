@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Уютный дом</title>
+    <link rel="stylesheet" href="./assets/jTLine/css/style.css">
+    <link rel="stylesheet" href="./assets/jTLine/css/reset.css">
+    <link rel="stylesheet" href="./assets/select2/css/select2.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+
+<body>
+    <header class="site-header container-fluid shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light align-middle row mt-0">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/logo.svg" width="35" height="35" class="d-inline-block align-top" alt="">
+                <span class="ml-2">Уютный дом</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Отобразить меню">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Новости</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Главная<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        <div class="container bg-light shadow bootstrap snippet pt-2 pb-2">
+            <div class="row">
+                <div class="col-sm-10 mt-3 mb-3">
+                    <h1>УК: Цифровой прорыв</h1>
+                </div>
+                <div class="col-sm-2">
+                    <a href="/users" class="pull-right">
+                        <img src="img/cp-logo.png" class="img-circle img-responsive"
+                            title="Управляющая компания - цифровой прорыв." width="125" height="100">
+                    </a>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-sm-3">
+                    <!--left col-->
+                    <div class="text-center">
+                    </div>
+                    </hr>
+                    <!-- User card -->
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png"
+                                class="avatar rounded img-circle img-thumbnail" alt="avatar">
+                            <h5 class="card-title mt-2 mb-2">Горбенко Вадим Вадимович</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Л/сч.: 0006295</h6>
+                            <div class="card">
+                                <div class="card-header">
+                                    Контакты
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <a href="tel:+79528328889">8-952-832-888-9</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="mailto:frontender94@mail.ru">frontender94@mail.ru</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/col-3-->
+                <div class="col-sm-9">
+                    <!-- Tab navs -->
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="news-tab" data-toggle="tab" href="#news" role="tab"
+                                aria-controls="news" aria-selected="true">
+                                Новости
+                                <span class="badge badge-warning">3</span>
+                                <span class="sr-only">новых</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="requests-tab" data-toggle="tab" href="#requests" role="tab"
+                                aria-controls="requests" aria-selected="false">
+                                Заявки
+                                <span class="badge badge-primary">2</span>
+                                <span class="sr-only">текущих</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="receipt-tab" data-toggle="tab" href="#receipt" role="tab"
+                                aria-controls="receipt" aria-selected="false">
+                                Квитанции
+                                <span class="badge badge-danger">1</span>
+                                <span class="sr-only">неоплаченных</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="meters-tab" data-toggle="tab" href="#meters" role="tab"
+                                aria-controls="meters" aria-selected="false">
+                                Показания
+                                <span class="badge badge-secondary">10</span>
+                                <span class="sr-only">всего</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Tabs content -->
+                    <div class="tab-content" id="myTabContent">
+                        <!-- 1st -->
+                        <div class="tab-pane pt-3 pb-3 fade show active" id="news" role="tabpanel"
+                            aria-labelledby="news-tab">
+                            <div class="list-group news">
+                                <a href="#" class="list-group-item list-group-item-action border border-danger">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Надо получить бэйджик.</h5>
+                                        <small>3 days ago</small>
+                                    </div>
+                                    <p class="mb-1">Вашего бэйджика, к сожалению, нет, но вы держитесь! Вам нужно
+                                        отстоять в третьей очереди, чтобы заказать распечатку бэйджика.</p>
+                                    <small class="text-muted">Ну, хоть очередь сразу правильную сказали :) </small>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action border border-primary">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Купил билет на электричку.</h5>
+                                        <small class="text-muted">3 days ago</small>
+                                    </div>
+                                    <p class="mb-1">Автомат выдаёт сначала чек, а потом только билет.</p>
+                                    <small class="text-muted">Спасибо персоналу, что не дали уйти без билета!</small>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action border border-warning">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Прибыл в Казань</h5>
+                                        <small class="text-muted">3 days ago</small>
+                                    </div>
+                                    <p class="mb-1">Вышел из аэропорта на улицу, чтобы пересесть на электричку.</p>
+                                    <small class="text-muted">Наивный...</small>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 2ns -->
+                        <div class="tab-pane fade" id="requests" role="tabpanel" aria-labelledby="requests-tab">
+                            <div class="d-flex justify-content-end mt-3">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                                    data-target="#exampleModal">+ Добавить заявку</button>
+                            </div>
+                            <ul class="collapse-list mt-4 border rounded container">
+                                <li class="collapse-list__item row" id="collapse-list-1__item-1">
+                                    <div class="collapse-list__item-cell text-center col-sm-1">#2</div>
+                                    <div class="collapse-list__item-cell col-sm-2">30.09.2019</div>
+                                    <div class="collapse-list__item-cell col-sm-6">Победа в конкурсе "Цифровой прорыв"
+                                    </div>
+                                    <div class="collapse-list__item-cell col-sm-2"><span class="badge badge-warning">В
+                                            работе</span></div>
+                                    <div
+                                        class="collapse-list__item-cell col collapse-list__item-cell_details collapse order-12">
+                                        <hr>
+                                        <h5>Детали заявки</h5>
+                                        <div class="myjtline" data-request-id="1">
+                                        </div>
+                                    </div>
+                                    <div class="collapse-list__item-cell text-center col-sm-1">
+                                        <button class="collapse-list__collapse-btn btn-block" type="button"
+                                            data-toggle="collapse"
+                                            data-target="#collapse-list-1__item-1 .collapse-list__item-cell_details"
+                                            aria-expanded="false" aria-controls="collapse-list-1__item-2">
+                                            <img src="img/arrow-down.svg" alt="Стрелка вниз - раскрыть детали">
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="collapse-list__item row" id="collapse-list-1__item-2">
+                                    <div class="collapse-list__item-cell text-center col-sm-1">#1</div>
+                                    <div class="collapse-list__item-cell col-sm-2">26.09.2019</div>
+                                    <div class="collapse-list__item-cell col-sm-6">Трансфер на конкур "Цифровой прорыв"
+                                    </div>
+                                    <div class="collapse-list__item-cell col-sm-2"><span
+                                            class="badge badge-success">Решено</span></div>
+                                    <div
+                                        class="collapse-list__item-cell col collapse-list__item-cell_details collapse order-12">
+                                        <hr>
+                                        <h5>Детали заявки</h5>
+                                        <div class="myjtline" data-request-id="2">
+                                        </div>
+                                    </div>
+                                    <div class="collapse-list__item-cell text-center col-sm-1">
+                                        <button class="collapse-list__collapse-btn btn-block" type="button"
+                                            data-toggle="collapse"
+                                            data-target="#collapse-list-1__item-2 .collapse-list__item-cell_details"
+                                            aria-expanded="false" aria-controls="collapse-list-1__item-2">
+                                            <img src="img/arrow-down.svg" alt="Стрелка вниз - раскрыть детали">
+                                        </button>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- 3rd -->
+                        <div class="tab-pane fade" id="receipt" role="tabpanel" aria-labelledby="receipt-tab">
+                            3
+                        </div>
+                        <!-- 4th -->
+                        <div class="tab-pane fade" id="meters" role="tabpanel" aria-labelledby="meters-tab">
+                            4
+                        </div>
+                    </div>
+                    <!--/tab-pane-->
+                </div>
+                <!--/tab-content-->
+
+            </div>
+            <!--/col-9-->
+        </div>
+        <!--/row-->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Новая заявка</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Категория обращения</label>
+                                <select class="form-control category-select js-request-category-select" id="exampleFormControlSelect1"
+                                    name="categories[]" multiple="multiple" size="2">
+                                    <option value="1">1 - Холодное водоснабжение</option>
+                                    <option value="2">2 - Лифт</option>
+                                    <option value="3">3 - Газовые сети</option>
+                                    <option value="4">4 - Техническое обслуживание</option>
+                                    <option value="5">5 - Текущий ремонт</option>
+                                    <option value="6">6 - Платные услуги</option>
+                                    <option value="7">7 - Санитарное состояние/содержание</option>
+                                    <option value="8">8 - Отопление</option>
+                                    <option value="9">9 - Вентканалы, дымоходы</option>
+                                    <option value="10">10 - Канализация</option>
+                                    <option value="11">11 - Горячее водоснабжение</option>
+                                    <option value="12">12 - Электрические сети</option>
+                                    <option value="13">13 - Кровля</option>
+                                    <option value="14">14 - Фасад</option>
+                                    <option value="15">15 - Стены</option>
+                                    <option value="17">17 - Нарушения</option>
+                                    <option value="19">19 - Иное</option>
+                                    <option value="20">20 - Уличные сети водоснабжения</option>
+                                    <option value="21">21 - Внутриквартальные сети водоснабжения</option>
+                                    <option value="22">22 - Насосное оборудование</option>
+                                    <option value="23">23 - Электротехническое оборудование</option>
+                                    <option value="24">24 - Платные услуги</option>
+                                    <option value="25">25 - Качество воды</option>
+                                    <option value="26">26 - Перерывы в предоставлении воды</option>
+                                    <option value="27">27 - Узел учета</option>
+                                    <option value="28">28 - Уличные сети водоотведения</option>
+                                    <option value="29">29 - Внутриквартальные сети водоотведения</option>
+                                    <option value="30">30 - Насосное оборудование</option>
+                                    <option value="31">31 - Электротехническое оборудование</option>
+                                    <option value="32">32 - Платные услуги</option>
+                                    <option value="33">33 - Качество стоков</option>
+                                    <option value="34">34 - Перерывы в приеме стоков</option>
+                                    <option value="35">35 - Узел учета</option>
+                                </select>
+                                <small id="emailHelp" class="form-text text-muted">Начните вводить текст для подсказки
+                                    категории.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Комментарий к заявке.</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">Зарегистрировать</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer fixed-bottom bg-dark">
+        <span class="text-light">&copy; Команда №1 2019</span>
+    </footer>
+    <script src="./assets/jquery-3.4.1.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/jTLine/js/jtline.js"></script>
+    <script src="./assets/select2/js/select2.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

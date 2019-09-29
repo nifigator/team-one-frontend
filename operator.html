@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Мегадом</title>
+    <link rel="stylesheet" href="./assets/jTLine/css/style.css">
+    <link rel="stylesheet" href="./assets/jTLine/css/reset.css">
+    <link rel="stylesheet" href="./assets/select2/css/select2.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+
+<body>
+    <header class="site-header container-fluid shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light align-middle row mt-0">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/logo.svg" width="35" height="35" class="d-inline-block align-top" alt="">
+                <span class="ml-2">Мегадом</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Отобразить меню">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Главная<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        <div class="container bg-light shadow bootstrap snippet pt-2 pb-2">
+            <div class="row">
+                <div class="col-sm-10 mt-3 mb-3">
+                    <h1>УК: Цифровой прорыв</h1>
+                </div>
+                <div class="col-sm-2">
+                    <a href="/users" class="pull-right">
+                        <img src="img/cp-logo.png" class="img-circle img-fluid"
+                            title="Управляющая компания - цифровой прорыв." width="125" height="100">
+                    </a>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-3">
+                    <!--left col-->
+                    <div class="text-center">
+                    </div>
+                    </hr>
+                    <!-- User card -->
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png"
+                                class="avatar rounded img-circle img-thumbnail" alt="avatar">
+                            <h5 class="card-title mt-2 mb-2 js-user-fio">Горбенко Вадим Вадимович</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Л/сч.: <span
+                                    class="js-user-account">0006295</span></h6>
+                            <div class="card">
+                                <div class="card-header">
+                                    Контакты
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <a href="tel:+79528328889" class="js-user-phone">8-952-832-888-9</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="mailto:frontender94@mail.ru"
+                                            class="js-user-mail">frontender94@mail.ru</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/col-3-->
+                <div class="col-lg-9">
+                    <!-- Tab navs -->
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="news-tab" data-toggle="tab" href="#news" role="tab"
+                                aria-controls="news" aria-selected="true">
+                                Новости
+                                <span class="badge badge-warning">3</span>
+                                <span class="sr-only">новых</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="requests-tab" data-toggle="tab" href="#requests" role="tab"
+                                aria-controls="requests" aria-selected="false">
+                                Заявки
+                                <span class="badge badge-primary js-order-counter">2</span>
+                                <span class="sr-only">текущих</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="receipt-tab" data-toggle="tab" href="#receipt" role="tab"
+                                aria-controls="receipt" aria-selected="false">
+                                Квитанции
+                                <span class="badge badge-danger">1</span>
+                                <span class="sr-only">неоплаченных</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="meters-tab" data-toggle="tab" href="#meters" role="tab"
+                                aria-controls="meters" aria-selected="false">
+                                Показания
+                                <span class="badge badge-secondary">10</span>
+                                <span class="sr-only">всего</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Tabs content -->
+                    <div class="tab-content" id="myTabContent">
+                        <!-- 1st -->
+                        <div class="tab-pane pt-3 pb-3 fade show active" id="news" role="tabpanel"
+                            aria-labelledby="news-tab">
+                            <div class="list-group news">
+                                <a href="#" class="list-group-item list-group-item-action border border-danger">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Надо получить бэйджик.</h5>
+                                        <small>3 days ago</small>
+                                    </div>
+                                    <p class="mb-1">Вашего бэйджика, к сожалению, нет, но вы держитесь! Вам нужно
+                                        отстоять в третьей очереди, чтобы заказать распечатку бэйджика.</p>
+                                    <small class="text-muted">Ну, хоть очередь сразу правильную сказали :) </small>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action border border-primary">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Купил билет на электричку.</h5>
+                                        <small class="text-muted">3 days ago</small>
+                                    </div>
+                                    <p class="mb-1">Автомат выдаёт сначала чек, а потом только билет.</p>
+                                    <small class="text-muted">Спасибо персоналу, что не дали уйти без билета!</small>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action border border-warning">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Прибыл в Казань</h5>
+                                        <small class="text-muted">3 days ago</small>
+                                    </div>
+                                    <p class="mb-1">Вышел из аэропорта на улицу, чтобы пересесть на электричку.</p>
+                                    <small class="text-muted">Наивный...</small>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 2ns -->
+                        <div class="tab-pane fade" id="requests" role="tabpanel" aria-labelledby="requests-tab">
+                        </div>
+                        <!-- 3rd -->
+                        <div class="tab-pane fade" id="receipt" role="tabpanel" aria-labelledby="receipt-tab">
+                            3
+                        </div>
+                        <!-- 4th -->
+                        <div class="tab-pane fade" id="meters" role="tabpanel" aria-labelledby="meters-tab">
+                            4
+                        </div>
+                    </div>
+                    <!--/tab-pane-->
+                </div>
+                <!--/tab-content-->
+
+            </div>
+            <!--/col-9-->
+        </div>
+        <!--/row-->
+    </main>
+    <footer class="site-footer fixed-bottom bg-dark">
+        <span class="text-light">&copy; Команда №1 2019</span>
+    </footer>
+    <script src="./assets/jquery-3.4.1.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/jTLine/js/jtline.js"></script>
+    <script src="./assets/select2/js/select2.min.js"></script>
+    <script src="js/exec-script.js"></script>
+</body>
+
+</html>
